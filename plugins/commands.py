@@ -60,7 +60,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ MAIN CHANNEL', url='https://t.me/+QdxgXrL4NL80OGFl')
+            InlineKeyboardButton('💝 SUBSCRIBE MY MAIN CHANNEL', url='https://t.me/+QdxgXrL4NL80OGFl')
             ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+0NFO_tCu91NhYjJl'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+sfULM9lM02Q2ZmI9')
